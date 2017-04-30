@@ -12,7 +12,7 @@ public class HelpLevelScript : MonoBehaviour {
 
 		GUI.skin=myskin;
 
-		if (GUI.Button(new Rect(450, 370, 100, 50), "RETURN")){
+		if (GUI.Button(new Rect(450, 400, 100, 50), "RETURN")){
 			Application.LoadLevel(gameLevel);
 
 
